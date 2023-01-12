@@ -80,7 +80,7 @@ a:hover {
 
 .signup:hover {
   background-color: #f9faf8;
-  color: #3882f6;
+  color: #1f2937;
   border: 1px solid #1f2937;
 }
 
@@ -114,8 +114,46 @@ a:hover {
 /* Section Three */
 .div3 {
   padding: 160px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  gap: 32px;
 }
 
+.title-info {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  border: 2px solid red;
+}
+
+.image-s3 {
+  width: 100px;
+  height: 100px;
+}
+
+.image-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.info-text {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
 /* Section Four */
 .div4 {
   background-color: #e5e7eb;
